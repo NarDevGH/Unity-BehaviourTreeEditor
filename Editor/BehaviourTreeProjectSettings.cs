@@ -44,7 +44,7 @@ namespace TheKiwiCoder {
             var settings = FindSettings();
             if (settings == null) {
                 settings = ScriptableObject.CreateInstance<BehaviourTreeProjectSettings>();
-                AssetDatabase.CreateAsset(settings, "Assets/BehaviourTreeProjectSettings.asset");
+                AssetDatabase.CreateAsset(settings, "Assets/Settings/BehaviourTree/BehaviourTreeProjectSettings.asset");
                 AssetDatabase.SaveAssets();
             }
             return settings;
