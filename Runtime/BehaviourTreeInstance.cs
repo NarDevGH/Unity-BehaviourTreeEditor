@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace TheKiwiCoder {
 
-    [AddComponentMenu("TheKiwiCoder/BehaviourTreeInstance")]
+    [AddComponentMenu("AI/BehaviourTreeInstance")]
     public class BehaviourTreeInstance : MonoBehaviour {
 
         // The main behaviour tree asset
