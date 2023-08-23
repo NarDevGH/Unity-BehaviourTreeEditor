@@ -11,10 +11,10 @@ namespace TheKiwiCoder {
     public class BehaviourTreeProjectSettings : ScriptableObject {
 
         [Tooltip("Folder where new tree assets will be created. (Must begin with 'Assets')")]
-        public string newTreePath = "Assets/";
+        public string newTreePath = "Assets/AI/BehaviourTree/Trees/";
 
         [Tooltip("Folder where new node scripts will be created. (Must begin with 'Assets')")]
-        public string newNodePath = "Assets/";
+        public string newNodePath = "Assets/AI/BehaviourTree/Nodes/";
 
         [Tooltip("Script template to use when creating action nodes")]
         public TextAsset scriptTemplateActionNode;
